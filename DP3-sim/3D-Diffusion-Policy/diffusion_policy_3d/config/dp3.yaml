@@ -121,6 +121,7 @@ logging:
   mode: online
   name: ${training.addition_info}-${training.seed}
   project: dp3
+  entity: pvabhinv-
   resume: true
   tags:
   - dp3
