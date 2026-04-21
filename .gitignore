@@ -1,0 +1,20 @@
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs & System files
+.vscode/
+.DS_Store
+
+dp3-venv/
+data/
+outputs/
+*.ckpt
+
