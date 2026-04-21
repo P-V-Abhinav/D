@@ -16,7 +16,7 @@ addition_info=${3}
 seed=${4}
 gpu_id=${5}
 exp_name=${task_name}-${alg_name}-${addition_info}
-run_dir="/share1/abhinav.pv/outputs/\${exp_name}_seed\${seed}"
+run_dir="/share1/abhinav.pv/outputs/\${now:%Y-%m-%d}/\${now:%H-%M-%S}"
 
 
 # gpu_id=$(bash scripts/find_gpu.sh)
