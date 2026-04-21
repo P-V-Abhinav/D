@@ -4,7 +4,9 @@
 # bash scripts/train_policy.sh simple_dp3 adroit_hammer 0322 0 0
 # bash scripts/train_policy.sh dp3 metaworld_basketball 0602 0 0
 
-
+# WANDB AUTHENTICATION BYPASS
+# Replace the string below exactly with your 86-character wandb API key.
+export WANDB_API_KEY="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"
 
 DEBUG=False
 save_ckpt=True
